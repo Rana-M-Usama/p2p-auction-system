@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "@hyperswarm/rpc": "^3.3.2",
+    "crypto": "^1.0.1",
+    "hyperbee": "^2.19.6",
+    "hypercore": "^10.37.6",
+    "hyperdht": "^6.15.1"
+  },
+  "scripts": {
+    "start": " hyperdht --bootstrap --host 127.0.0.1 --port 30001 & node index.js"
+  }
+}
